@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    width: 1000px;
+    height: 480px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.grid {
+    width: 280px;
+    height: 480px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid .img {
+    background-size: cover;
+    background-position: center;
+    transition: background-image .3s ease;
+}
+
+.i1  { background-image: url("img/01.svg"); }
+.i1:hover  { background-image: url("img/07.svg"); }
+
+.i2  { background-image: url("img/02.svg"); }
+.i2:hover  { background-image: url("img/08.svg"); }
+
+.i3  { background-image: url("img/03.svg"); }
+.i3:hover  { background-image: url("img/09.svg"); }
+
+.i4  { background-image: url("img/04.svg"); }
+.i4:hover  { background-image: url("img/10.svg"); }
+
+.i5  { background-image: url("img/05.svg"); }
+.i5:hover  { background-image: url("img/11.svg"); }
+
+.i6  { background-image: url("img/06.svg"); }
+.i6:hover  { background-image: url("img/12.svg"); }
+
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #ff7d4a;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    font-size: 18px;
+    margin-top: 40px;
+    transition: transform .4s, background-color .4s;
+}
+
+button:hover {
+    background-color: #ffa57c;
+    transform: scale(1.10);
+}

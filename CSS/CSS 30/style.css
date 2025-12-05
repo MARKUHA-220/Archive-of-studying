@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background: #efefef;
+  background-image: url(img/back.jpg);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+  align-items: center;
+  margin: 1px 5%;
+}
+
+.logo {
+  font-size: 48px;
+}
+.logo span {
+  color: hotpink;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #555;
+  padding-bottom: 3px;
+}
+
+nav a[href="index.html"]:hover,
+nav a[href="index.html"]:focus,
+#home:target ~ nav a[href="v"] {
+  color: hotpink;
+}
+
+nav a[href="1.html"]:hover,
+#about:target ~ nav a[href="1.html"] {
+  color: hotpink;
+}
+
+nav a[href="2.html"]:hover,
+#contact:target ~ nav a[href="2.html"] {
+  color: hotpink;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.page {
+  display: none;
+  animation: fade 0.4s;
+  display: flex;
+  gap: 30px;
+  margin-left: 3%;
+}
+
+.img {
+  width: 100%;
+}
+
+.about{
+  background-color: #cfcfcf36;
+}
+
+.about img{
+  width: 60%;
+}
+
+.text {
+  color: rgb(49, 49, 49);
+  width: 50%;
+}
+
+form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 7px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+button {
+  padding: 8px;
+  width: 80px;
+}
+
+footer {
+  text-align: right;
+  margin: 40px 10%;
+}
