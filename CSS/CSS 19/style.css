@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-image: url('bg.png');
+    background-repeat: repeat-x;
+  }
+
+  h1 {
+    font-size: 80px;
+    color: purple;
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+
+  .double {
+    width: 600px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    border: 8px double black;
+    background-color: white;
+  }

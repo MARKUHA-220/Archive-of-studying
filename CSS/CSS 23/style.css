@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: #555556;
+    color: #000;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 40px;
+    color: #000;
+    letter-spacing: 4px;
+}
+
+.calendar {
+    width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.day {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #e6dca1;
+    margin: 4px;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: top;
+    overflow: auto;
+    font-size: 16px;
+}
+
+.prev,
+.next {
+    background: #818181;
+    color: white;
+}
+
+.long {
+    overflow-y: scroll;
+}

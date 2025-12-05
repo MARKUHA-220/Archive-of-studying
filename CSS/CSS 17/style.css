@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #bde0fe;
+  }
+
+  .back {
+    width: 1500px;
+    height: 1500px;
+
+    background-image: 
+      url('butter.png'),
+      url('butter.png'),
+      url('butter.png'),
+      url('sky.png');
+
+    background-position: 
+      10% 60%,
+      50% 40%,
+      80% 70%,
+      center;
+
+    background-size: 
+      100px,
+      120px,
+      90px,
+      cover;
+
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  }

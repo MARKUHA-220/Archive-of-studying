@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #3f4850; /* tamsi fono spalva */
+    font-family: Georgia, serif;
+}
+
+.topbar {
+    background: #b4b898;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+}
+
+.container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 780px;
+    background: #cfd2b2;
+    border: 5px solid #d7dabf;
+    padding: 0;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border-bottom: 5px solid #d7dabf;
+}
+
+.content {
+    padding: 20px 25px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.card footer {
+    padding: 12px;
+    text-align: center;
+    background: #c2c5a3;
+    border-top: 5px solid #d7dabf;
+    font-size: 14px;
+}

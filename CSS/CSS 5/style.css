@@ -1,0 +1,26 @@
+
+body {
+  margin: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #0055aa;
+}
+
+p {
+  background-color: #ffffff;
+}
+
+p:nth-child(odd) {
+  background-color: #e9f0ff;
+}
+
+p:nth-child(even) {
+  background-color: #fff1e6;
+}
+
+p:hover {
+  background-color: #d0ffd0;
+  color: #003300;
+}

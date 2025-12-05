@@ -1,0 +1,11 @@
+body{
+  background-color:rgb(220, 220, 220);
+}
+
+img{
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+}

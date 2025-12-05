@@ -1,0 +1,20 @@
+.container {
+    width: 540px;
+    border: 2px solid darkslategray;
+    padding: 2em;
+    margin: 5em auto;
+}
+
+h2 {
+  background-image: url("line1.png"), url("line2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left center, right center;
+  background-size: 200px 100px;
+  text-align: center;
+  padding: 100px 150px;
+  font-size: 20px;
+}
+
+
+
+/* CSS stilius įterpti čia */

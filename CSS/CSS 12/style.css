@@ -1,0 +1,36 @@
+body {
+    background-color: #5e2200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.poster {
+    background-color: #ad4000;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border: 4px solid #ffffff;
+    width: 300px;
+}
+
+.icon {
+    font-size: 1000px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}

@@ -1,0 +1,65 @@
+:root {
+    --bg-color: #d9e9e8;
+    --header-bg: #0d2c40;
+    --body-bg: #7ea6a1;
+    --button-bg: #1c4c4c;
+    --button-hover: #163a3a;
+    --text-color: #ffffff;
+    --subtext-color: #2e3f3f;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 380px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-header {
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    text-align: center;
+    padding: 25px 10px 10px;
+}
+
+.form-body {
+    background-color: var(--body-bg);
+    padding: 25px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-body p {
+    color: var(--subtext-color);
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}

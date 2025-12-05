@@ -1,0 +1,66 @@
+.flag {
+      width: 300px;
+      height: 180px;
+      margin: 20px 0;
+      border: 1px solid #000;
+    }
+    .stripe {
+      width: 100%;
+    }
+    .armenia .stripe:nth-child(1) { background: #D90012; height: 33.33%; }
+    .armenia .stripe:nth-child(2) { background: #0033A0; height: 33.33%; }
+    .armenia .stripe:nth-child(3) { background: #F2A800; height: 33.33%; }
+
+    .luxembourg .stripe:nth-child(1) { background: #FF0000; height: 33.33%; }
+    .luxembourg .stripe:nth-child(2) { background: #FFFFFF; height: 33.33%; }
+    .luxembourg .stripe:nth-child(3) { background: #00A1DE; height: 33.33%; }
+
+    .botswana {
+      background: #75AADB;
+      position: relative;
+    }
+    .botswana .stripe {
+      position: absolute;
+      top: 45%;
+      height: 30px;
+      width: 100%;
+      background: white;
+    }
+    .botswana .stripe::before {
+      content: "";
+      display: block;
+      height: 20px;
+      background: black;
+      margin: 5px;
+    }
+
+    .catalonia {
+      background: #ffd900;
+      position: relative;
+    }
+    .catalonia .stripe {
+      height: 22.5px;
+      background: #D90012;
+    }
+    .catalonia .stripe1 {
+      height: 22.5px;
+      background: #ffd900;
+    }
+
+    .colombia .stripe:nth-child(1) { background: #FFD700; height: 50%; }
+    .colombia .stripe:nth-child(2) { background: #0033A0; height: 25%; }
+    .colombia .stripe:nth-child(3) { background: #CE1126; height: 25%; }
+
+    .img-flag {
+      width: 300px;
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #000;
+      margin: 20px 0;
+    }
+    .usa { background-image: url('https://flagcdn.com/us.svg'); }
+    .israel { background-image: url('https://flagcdn.com/il.svg'); }
+    .azerbaijan { background-image: url('https://flagcdn.com/az.svg'); }
+    .india { background-image: url('https://flagcdn.com/in.svg'); }
+    .spain { background-image: url('https://flagcdn.com/es.svg'); }
